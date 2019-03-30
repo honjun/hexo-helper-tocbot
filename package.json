@@ -1,0 +1,15 @@
+{
+  "name": "hexo-helper-tocbot",
+  "version": "1.0.0",
+  "description": "hexo-helper-tocbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "tocbot"
+  ],
+  "author": "hojun",
+  "license": "ISC"
+}
