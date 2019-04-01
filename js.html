@@ -1,0 +1,16 @@
+<html>
+  <body>
+    请输入年份：<input type="text" id="year">
+    <button onclick="getTD()">确认</button>
+  </body>
+  <script>
+    var getTD = function() {
+      let year = document.getElementById('year').value;
+      let tg = ['庚','辛','壬','癸','甲','乙','丙','丁','戊','己'];
+      let dz = ['申','酉','戌','亥','子','丑','寅','卯','辰','巳','午','未'];
+      let tgIndex = year%10; 
+      let dzIndex = year%12; 
+      alert(year + '年是：' + tg[tgIndex] + dz[dzIndex] + '年');
+    }
+  </script>
+</html>
